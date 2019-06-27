@@ -15,9 +15,7 @@ class String
   end
 
   def count_sentences
-    binding.pry
+    #binding.pry
     self.split(/[.!?]+/).count
   end
 end
-
-"This. And this. Also this!".count_sentences
