@@ -3,12 +3,11 @@ require 'pry'
 class String
 
   def sentence?
-    return true if self.end_with?(".")
-    false
+    self.end_with?(".") ? true : false
   end
 
   def question?
-
+    
   end
 
   def exclamation?
