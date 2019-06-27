@@ -20,3 +20,4 @@ class String
   end
 end
 
+"This. And this. Also this!".count_sentences
